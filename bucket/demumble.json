@@ -1,0 +1,11 @@
+{
+    "version": "1.2.1",
+    "description": "A better c++filt and a better undname.exe, in one binary.",
+    "homepage": "https://github.com/nico/demumble",
+    "license": "Apache-2.0",
+    "url": "https://github.com/nico/demumble/releases/download/v1.2.1/demumble-win.zip#/dl.7z",
+    "hash": "1bcb8d7ddf03b123ac26ac6602bbbc730bd8d5fbd42aadcbcb06cbc763e7263b",
+    "bin": [
+        "demumble.exe"
+    ]
+}

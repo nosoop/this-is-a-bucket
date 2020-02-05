@@ -1,0 +1,19 @@
+{
+    "version": "2.3.1-hotfix1",
+    "description": "Steam depot downloader utilizing the SteamKit2 library.",
+    "homepage": "https://github.com/SteamRE/DepotDownloader",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.3.1/depotdownloader-2.3.1-hotfix1.zip#/dl.7z",
+    "hash": "7d0f8edd92b29e2895f169b64a28cd65072e09d2de420ee6636bc59a3766d18d",
+    "bin": [
+        [ "depotdownloader.bat", "depotdownloader" ]
+    ],
+     "pre_install": [
+        "if (Test-Path \"$persist_dir\\DepotDownloader.config\") {",
+        "    Copy-Item \"$persist_dir\\DepotDownloader.config\" \"$dir\"",
+        "}"
+    ],
+    "uninstaller": {
+        "script": "if (Test-Path \"$dir\\DepotDownloader.config\") { Copy-Item \"$dir\\DepotDownloader.config\" \"$persist_dir\" -Force }"
+    }
+}
