@@ -7,13 +7,5 @@
     "hash": "7563e2ba1e96ca365d8bdc11d2d4222647705fca913bf46a9aeb953c175623b9",
     "bin": [
         [ "depotdownloader.bat", "depotdownloader" ]
-    ],
-     "pre_install": [
-        "if (Test-Path \"$persist_dir\\DepotDownloader.config\") {",
-        "    Copy-Item \"$persist_dir\\DepotDownloader.config\" \"$dir\"",
-        "}"
-    ],
-    "uninstaller": {
-        "script": "if (Test-Path \"$dir\\DepotDownloader.config\") { Copy-Item \"$dir\\DepotDownloader.config\" \"$persist_dir\" -Force }"
-    }
+    ]
 }
