@@ -1,10 +1,10 @@
 {
-    "version": "2.3.2",
+    "version": "2.3.2-fix1",
     "description": "Steam depot downloader utilizing the SteamKit2 library.",
     "homepage": "https://github.com/SteamRE/DepotDownloader",
     "license": "GPL-2.0-only",
     "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.3.2/depotdownloader-2.3.2.zip#/dl.7z",
-    "hash": "88d785c67008b2472804756231115f0a304f2d1a31259ee086f2c964694fb13b",
+    "hash": "7563e2ba1e96ca365d8bdc11d2d4222647705fca913bf46a9aeb953c175623b9",
     "bin": [
         [ "depotdownloader.bat", "depotdownloader" ]
     ],
