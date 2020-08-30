@@ -1,10 +1,10 @@
 {
-    "version": "1.17.0",
+    "version": "1.18.1",
     "description": "Easy-to-use command-line/curses/web plaintext accounting tool.",
     "homepage": "https://github.com/simonmichael/hledger",
     "license": "GPL-3.0",
-    "url": "https://ci.appveyor.com/api/buildjobs/adymn76m8jnl27sm/artifacts/hledger.zip#/dl.7z",
-    "hash": "6dab7002b84acde29f08875ff115e3d0365fc927332607b409fed5c28fe21d2b",
+    "url": "https://github.com/simonmichael/hledger/releases/download/1.18.1/hledger-windows.zip#/dl.7z",
+    "hash": "e6307084a0011d03a82f86803d51179363346132f258b3770f2d80d422494e6b",
     "bin": [
         "hledger.exe",
         "hledger-web.exe"
