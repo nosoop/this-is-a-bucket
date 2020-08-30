@@ -4,7 +4,7 @@
     "homepage": "https://github.com/nico/demumble",
     "license": "Apache-2.0",
     "url": "https://github.com/nico/demumble/releases/download/v1.2.2/demumble-win.zip#/dl.7z",
-    "hash": "1bcb8d7ddf03b123ac26ac6602bbbc730bd8d5fbd42aadcbcb06cbc763e7263b",
+    "hash": "25a78c0790b8fb64ba65d3c740bd8afd48a3c5aaf48c18856138b66a853f07c0",
     "bin": [
         "demumble.exe"
     ]
